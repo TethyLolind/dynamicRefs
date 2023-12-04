@@ -1,9 +1,11 @@
 {
   "name": "dynamic-refs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Load refs in the runtime of storybook",
   "keywords": [
-    "refs", "runtime", "storybook-addons"
+    "refs",
+    "runtime",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
@@ -42,7 +44,7 @@
     "release": "npm run build && auto shipit",
     "eject-ts": "zx scripts/eject-typescript.mjs",
     "storybook": "storybook dev -p 6006",
-"build-storybook": "storybook build"
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.0.0",
@@ -83,9 +85,15 @@
     "access": "public"
   },
   "bundler": {
-    "exportEntries": ["src/index.ts"],
-    "managerEntries": ["src/manager.ts"],
-    "previewEntries": ["src/preview.ts"]
+    "exportEntries": [
+      "src/index.ts"
+    ],
+    "managerEntries": [
+      "src/manager.ts"
+    ],
+    "previewEntries": [
+      "src/preview.ts"
+    ]
   },
   "storybook": {
     "displayName": "dyanamicRefs",
