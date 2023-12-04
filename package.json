@@ -1,6 +1,6 @@
 {
   "name": "dynamic-refs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Load refs in the runtime of storybook",
   "keywords": [
     "refs", "runtime", "storybook-addons"
@@ -42,7 +42,7 @@
     "release": "npm run build && auto shipit",
     "eject-ts": "zx scripts/eject-typescript.mjs",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+"build-storybook": "storybook build"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.0.0",
